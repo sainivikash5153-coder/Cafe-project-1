@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="BREW & BLOOM - Luxury coffee, desserts and beautiful café experiences.">
+
+    <title>BREW & BLOOM | Luxury Café</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- External JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <a href="#home" class="logo" data-page="home">
+            BREW <span>&</span> BLOOM
+        </a>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home" data-page="home" class="active">Home</a>
+            <a href="#menu" data-page="menu">Menu</a>
+            <a href="#gallery" data-page="gallery">Gallery</a>
+            <a href="#contact" data-page="contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+
+            <button class="theme-btn" id="themeToggle"
+                aria-label="Toggle dark mode">◐</button>
+
+            <button class="menu-btn" id="menuToggle"
+                aria-label="Toggle navigation">☰</button>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- HOME PAGE -->
+        <section id="home" class="page active">
+
+            <div class="hero">
+
+                <div class="hero-content">
+
+                    <p class="eyebrow">A LITTLE LUXURY IN EVERY CUP</p>
+
+                    <h1>Where Every Sip Feels Special.</h1>
+
+                    <p>
+                        Discover handcrafted coffee, delicious desserts
+                        and beautiful moments at BREW & BLOOM.
+                    </p>
+
+                    <a href="#menu" class="btn" data-page="menu">
+                        EXPLORE OUR MENU
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- INTRODUCTION -->
+            <section class="intro section">
+
+                <p class="eyebrow">WELCOME TO BREW & BLOOM</p>
+
+                <h2>More Than Just Coffee</h2>
+
+                <p>
+                    We believe that a great café is more than a place
+                    to enjoy coffee. It is a place to relax, connect,
+                    celebrate and create memories. Every detail at
+                    BREW & BLOOM is designed to make your visit special.
+                </p>
+
+            </section>
+
+            <!-- FEATURES -->
+            <section class="features section">
+
+                <p class="eyebrow">THE BREW & BLOOM EXPERIENCE</p>
+
+                <h2>Why Choose Us?</h2>
+
+                <div class="feature-grid">
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">☕</div>
+
+                        <h3>Premium Coffee</h3>
+
+                        <p>
+                            Freshly brewed coffee made with carefully
+                            selected beans.
+                        </p>
+
+                    </article>
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">🥐</div>
+
+                        <h3>Freshly Baked</h3>
+
+                        <p>
+                            Delicious pastries and desserts prepared
+                            with love.
+                        </p>
+
+                    </article>
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">🌿</div>
+
+                        <h3>Beautiful Ambience</h3>
+
+                        <p>
+                            A peaceful and elegant space for every
+                            occasion.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+            <!-- QUOTE -->
+            <section class="quote-section">
+
+                <p class="eyebrow">OUR PHILOSOPHY</p>
+
+                <h2>
+                    "Good coffee. Beautiful moments. Endless memories."
+                </h2>
+
+            </section>
+
+            <!-- CALL TO ACTION -->
+            <section class="cta section">
+
+                <p class="eyebrow">YOUR NEXT COFFEE MOMENT</p>
+
+                <h2>Your Table Is Waiting</h2>
+
+                <p>Make your next visit unforgettable.</p>
+
+                <a href="#contact" class="btn" data-page="contact">
+                    BOOK A TABLE
+                </a>
+
+            </section>
+
+        </section>
+
+
+        <!-- MENU PAGE -->
+        <section id="menu" class="page">
+
+            <div class="page-banner">
+
+                <p class="eyebrow">MADE WITH LOVE</p>
+
+                <h1>Our Menu</h1>
+
+                <p>Discover your next favourite flavour.</p>
+
+            </div>
+
+            <section class="section menu-section">
+
+                <p class="eyebrow">HANDCRAFTED WITH CARE</p>
+
+                <h2>Signature Coffee</h2>
+
+                <div class="table-container">
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+                                <th>Item</th>
+                                <th>Description</th>
+                                <th>Price</th>
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>Espresso</td>
+                                <td>Rich and bold classic coffee</td>
+                                <td>₹120</td>
+                            </tr>
+
+                            <tr>
+                                <td>Cappuccino</td>
+                                <td>Espresso with steamed milk foam</td>
+                                <td>₹180</td>
+                            </tr>
+
+                            <tr>
+                                <td>Café Latte</td>
+                                <td>Smooth espresso with creamy milk</td>
+                                <td>₹190</td>
+                            </tr>
+
+                            <tr>
+                                <td>Caramel Macchiato</td>
+                                <td>Espresso with vanilla and caramel</td>
+                                <td>₹220</td>
+                            </tr>
+
+                            <tr>
+                                <td>Cold Coffee</td>
+                                <td>Chilled creamy blended coffee</td>
+                                <td>₹200</td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="3" class="category-row">
+                                    DESSERTS & BAKERY
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Chocolate Brownie</td>
+                                <td>Warm chocolate brownie</td>
+                                <td>₹150</td>
+                            </tr>
+
+                            <tr>
+                                <td>Blueberry Cheesecake</td>
+                                <td>Creamy cheesecake with blueberry topping</td>
+                                <td>₹250</td>
+                            </tr>
+
+                            <tr>
+                                <td>Butter Croissant</td>
+                                <td>Freshly baked buttery pastry</td>
+                                <td>₹130</td>
+                            </tr>
+
+                            <tr>
+                                <td>Chocolate Muffin</td>
+                                <td>Soft muffin filled with chocolate</td>
+                                <td>₹140</td>
+                            </tr>
+
+                            <tr>
+                                <td>Classic Tiramisu</td>
+                                <td>Italian dessert with coffee flavour</td>
+                                <td>₹280</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </section>
+
+            <!-- SPECIAL SECTION -->
+            <section class="special-section section">
+
+                <p class="eyebrow">A LITTLE SOMETHING SPECIAL</p>
+
+                <h2>Made for Your Moments</h2>
+
+                <p>
+                    From your morning coffee to your evening dessert,
+                    we make every visit memorable.
+                </p>
+
+                <a href="#contact" class="btn" data-page="contact">
+                    RESERVE YOUR TABLE
+                </a>
+
+            </section>
+
+        </section>
+
+
+        <!-- GALLERY PAGE -->
+        <section id="gallery" class="page">
+
+            <div class="page-banner">
+
+                <p class="eyebrow">A GLIMPSE OF OUR WORLD</p>
+
+                <h1>Our Gallery</h1>
+
+                <p>Explore the beauty of BREW & BLOOM.</p>
+
+            </div>
+
+            <section class="section gallery-section">
+
+                <p class="eyebrow">MOMENTS WORTH SHARING</p>
+
+                <h2>Our Café Collection</h2>
+
+                <div class="gallery-grid">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=900"
+                        alt="Freshly brewed coffee"
+                        class="gallery-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=900"
+                        alt="Beautiful café interior"
+                        class="gallery-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=900"
+                        alt="Coffee cup"
+                        class="gallery-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=900"
+                        alt="Chocolate dessert"
+                        class="gallery-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=900"
+                        alt="Fresh croissants"
+                        class="gallery-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=900"
+                        alt="Coffee preparation"
+                        class="gallery-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=900"
+                        alt="Elegant café seating"
+                        class="gallery-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=900"
+                        alt="Chocolate cake"
+                        class="gallery-image">
+
+                </div>
+
+            </section>
+
+            <!-- VIDEO -->
+            <section class="video-section section">
+
+                <p class="eyebrow">EXPERIENCE THE ATMOSPHERE</p>
+
+                <h2>A Taste of Our Café</h2>
+
+                <video controls>
+
+                    <source
+                        src="https://www.w3schools.com/html/mov_bbb.mp4"
+                        type="video/mp4">
+
+                    Your browser does not support the video element.
+
+                </video>
+
+            </section>
+
+            <!-- LIGHTBOX -->
+            <div class="lightbox" id="lightbox">
+
+                <button id="lightboxClose"
+                    aria-label="Close image">×</button>
+
+                <img
+                    src=""
+                    alt="Enlarged gallery image"
+                    id="lightboxImage">
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT PAGE -->
+        <section id="contact" class="page">
+
+            <div class="page-banner">
+
+                <p class="eyebrow">WE WOULD LOVE TO SEE YOU</p>
+
+                <h1>Contact & Reservations</h1>
+
+                <p>Let's make your next visit special.</p>
+
+            </div>
+
+            <section class="section contact-section">
+
+                <!-- CONTACT INFORMATION -->
+                <div class="contact-info">
+
+                    <p class="eyebrow">GET IN TOUCH</p>
+
+                    <h2>Visit BREW & BLOOM</h2>
+
+                    <p>
+                        <strong>Address:</strong>
+                        Pune, Maharashtra, India
+                    </p>
+
+                    <p>
+                        <strong>Phone:</strong>
+                        +91 98765 43210
+                    </p>
+
+                    <p>
+                        <strong>Email:</strong>
+                        hello@brewandbloom.com
+                    </p>
+
+                    <p>
+                        <strong>Opening Hours:</strong>
+                        9:00 AM – 10:00 PM
+                    </p>
+
+                </div>
+
+
+                <!-- BOOKING FORM -->
+                <div class="booking-card">
+
+                    <h2>Book Your Table</h2>
+
+                    <p>
+                        Fill in the details below to request a reservation.
+                    </p>
